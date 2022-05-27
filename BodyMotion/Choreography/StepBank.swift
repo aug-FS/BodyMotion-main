@@ -160,50 +160,50 @@ class StepBank {
     static var admOmbroEsquerdo_1 = Step(poses: [PoseBank.admOmbroEsquerdo80_1,
                                                        PoseBank.admOmbroEsquerdo70_1,
                                                        PoseBank.admOmbroEsquerdo60_1,
-                                                       PoseBank.admOmbroEsquerdo50_1,],
+                                                       PoseBank.admOmbroEsquerdo50_1],
                                                moveName: "admOmbroDireito1")
     
     static var admOmbroEsquerdo_2 = Step(poses: [PoseBank.admOmbroEsquerdo90_2,
                                                        PoseBank.admOmbroDireito100_2,
                                                        PoseBank.admOmbroDireito110_2,
-                                                       PoseBank.admOmbroDireito120_2,],
+                                                       PoseBank.admOmbroDireito120_2],
                                                moveName: "admOmbroDireito2")
     
     static var admOmbroInvertidoDireito = Step(poses: [PoseBank.admOmbroInvertidoDireito80,
                                                        PoseBank.admOmbroInvertidoDireito70,
                                                        PoseBank.admOmbroInvertidoDireito60,
-                                                       PoseBank.admOmbroInvertidoDireito50,],
+                                                       PoseBank.admOmbroInvertidoDireito50],
                                                moveName: "admOmbroInvertidoDireito")
     
     static var admOmbroDireito_1 = Step(poses: [PoseBank.admOmbroDireito80_1,
                                                        PoseBank.admOmbroDireito70_1,
                                                        PoseBank.admOmbroDireito60_1,
-                                                       PoseBank.admOmbroDireito50_1,],
+                                                       PoseBank.admOmbroDireito50_1],
                                                moveName: "admOmbroDireito1")
     
     static var admOmbroDireito_2 = Step(poses: [PoseBank.admOmbroDireito90_2,
                                                        PoseBank.admOmbroDireito100_2,
                                                        PoseBank.admOmbroDireito110_2,
-                                                       PoseBank.admOmbroDireito120_2,],
+                                                       PoseBank.admOmbroDireito120_2],
                                                moveName: "admOmbroDireito2")
     
     static var ombroInvertidoDireito = Step(poses: [PoseBank.ombroInvertidoDireito90,
                                                        PoseBank.ombroInvertidoDireito100,
                                                        PoseBank.ombroInvertidoDireito110,
-                                                       PoseBank.ombroInvertidoDireito120,],
+                                                       PoseBank.ombroInvertidoDireito120],
                                                moveName: "ombroInvertidoDireito")
     
     
     static var admOmbroInvertidoEsquerdo = Step(poses: [PoseBank.admOmbroInvertidoEsquerdo80,
                                                         PoseBank.admOmbroInvertidoEsquerdo70,
                                                         PoseBank.admOmbroInvertidoEsquerdo60,
-                                                        PoseBank.admOmbroInvertidoEsquerdo50,],
+                                                        PoseBank.admOmbroInvertidoEsquerdo50],
                                                 moveName: "admOmbroInvertidoEsquerdo")
     
     static var ombroInvertidoEsquerdo = Step(poses: [PoseBank.ombroInvertidoEsquerdo90,
                                                        PoseBank.ombroInvertidoEsquerdo100,
                                                        PoseBank.ombroInvertidoEsquerdo110,
-                                                       PoseBank.ombroInvertidoEsquerdo120,],
+                                                       PoseBank.ombroInvertidoEsquerdo120],
                                                moveName: "ombroInvertidoDireito")
     
     static var flexaoOmbroECotoveloDireito = Step(poses: [PoseBank.flexaoOmbroECotoveloDireito100,
@@ -227,7 +227,7 @@ class StepBank {
     static var flexaoOmbroECotoveloEsquerdo = Step(poses: [PoseBank.flexaoOmbroECotoveloEsquerdo100,
                                                            PoseBank.flexaoOmbroECotoveloEsquerdo75,
                                                            PoseBank.flexaoOmbroECotoveloEsquerdo50,
-                                                           PoseBank.flexaoOmbroECotoveloEsquerdo25,],
+                                                           PoseBank.flexaoOmbroECotoveloEsquerdo25],
                                                    moveName: "flexaoOmbroECotoveloEsquerdo")
     
     static var flexaoOmbroEsquerdo_1 = Step(poses: [PoseBank.flexaoOmbroEsquerdo120_1,
