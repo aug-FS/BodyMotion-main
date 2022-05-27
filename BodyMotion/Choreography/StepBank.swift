@@ -57,49 +57,49 @@ class StepBank {
     static var abdAduflexDireito = Step(poses: [PoseBank.abdAduflexDireito100,
                                                 PoseBank.abdAduflexDireito75,
                                                 PoseBank.abdAduflexDireito50,
-                                                PoseBank.abdAduflexDireito25,],
+                                                PoseBank.abdAduflexDireito25],
                                         moveName: "abdAduflexDireito")
     
     static var abdDireito = Step(poses: [PoseBank.abdDireito80,
                                                 PoseBank.abdDireito70,
                                                 PoseBank.abdDireito60,
-                                                PoseBank.abdDireito50,],
+                                                PoseBank.abdDireito50],
                                         moveName: "abdDireito")
     
     static var aduDireito = Step(poses: [PoseBank.aduDireito150,
                                                 PoseBank.aduDireito160,
                                                 PoseBank.aduDireito170,
-                                                PoseBank.aduDireito180,],
+                                                PoseBank.aduDireito180],
                                         moveName: "AduDireito")
     
     static var flexDireito = Step(poses: [PoseBank.flexDireito120,
                                                 PoseBank.flexDireito130,
                                                 PoseBank.flexDireito140,
-                                                PoseBank.flexDireito150,],
+                                                PoseBank.flexDireito150],
                                         moveName: "flexDireito")
     
     static var abdAduflexEsquerdo = Step(poses: [PoseBank.abdAduflexEsquerdo100,
                                                  PoseBank.abdAduflexEsquerdo75,
                                                  PoseBank.abdAduflexEsquerdo50,
-                                                 PoseBank.abdAduflexEsquerdo25,],
+                                                 PoseBank.abdAduflexEsquerdo25],
                                          moveName: "abdAduflexEsquerdo")
     
     static var abdEsquerdo = Step(poses: [PoseBank.abdEsquerdo80,
                                                 PoseBank.abdEsquerdo70,
                                                 PoseBank.abdEsquerdo60,
-                                                PoseBank.abdEsquerdo50,],
+                                                PoseBank.abdEsquerdo50],
                                         moveName: "abdEsquerdo")
     
     static var aduEsquerdo = Step(poses: [PoseBank.aduEsquerdo150,
                                                 PoseBank.aduEsquerdo160,
                                                 PoseBank.aduEsquerdo170,
-                                                PoseBank.aduEsquerdo180,],
+                                                PoseBank.aduEsquerdo180],
                                         moveName: "aduEsquerdo")
     
     static var flexEsquerdo = Step(poses: [PoseBank.flexEsquerdo120,
                                                 PoseBank.flexEsquerdo130,
                                                 PoseBank.flexEsquerdo140,
-                                                PoseBank.flexEsquerdo150,],
+                                                PoseBank.flexEsquerdo150],
                                         moveName: "flexEsquerdo")
     
     // Passo pra frente
