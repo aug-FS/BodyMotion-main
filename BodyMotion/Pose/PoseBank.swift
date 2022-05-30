@@ -343,131 +343,75 @@ class PoseBank {
         AngleCondition(centerJoint: .right_forearm_joint, firstJoint: .right_arm_joint, secondJoint: .right_hand_joint, condition: .less, inferiorLimit: 80, upperLimit: 100),
         AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 90)])
     
-    static var admOmbroDireito80_1 = Pose(conditions: [
-        AngleCondition(centerJoint: .right_forearm_joint, firstJoint: .right_arm_joint, secondJoint: .right_hand_joint, condition: .less, inferiorLimit: 80, upperLimit: 100)])
-
-    static var admOmbroDireito90_2 = Pose(conditions: [
-        AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 90)])
-    
     static var admOmbroDireito70 = Pose(conditions: [
         AngleCondition(centerJoint: .right_forearm_joint, firstJoint: .right_arm_joint, secondJoint: .right_hand_joint, condition: .less, inferiorLimit: 70, upperLimit: 110),
         AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 100)])
     
-    static var admOmbroDireito70_1 = Pose(conditions: [
-        AngleCondition(centerJoint: .right_forearm_joint, firstJoint: .right_arm_joint, secondJoint: .right_hand_joint, condition: .less, inferiorLimit: 70, upperLimit: 110)])
-  
-    static var admOmbroDireito100_2 = Pose(conditions: [
-        AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 100)])
-    
-    
+
     static var admOmbroDireito60 = Pose(conditions: [
         AngleCondition(centerJoint: .right_forearm_joint, firstJoint: .right_arm_joint, secondJoint: .right_hand_joint, condition: .less, inferiorLimit: 60, upperLimit: 120),
         AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 110)])
     
-    static var admOmbroDireito60_1 = Pose(conditions: [
-        AngleCondition(centerJoint: .right_forearm_joint, firstJoint: .right_arm_joint, secondJoint: .right_hand_joint, condition: .less, inferiorLimit: 60, upperLimit: 120)])
-    
-    static var admOmbroDireito110_2 = Pose(conditions: [
-        AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 110)])
-    
+
     static var admOmbroDireito50 = Pose(conditions: [
         AngleCondition(centerJoint: .right_forearm_joint, firstJoint: .right_arm_joint, secondJoint: .right_hand_joint, condition: .less, inferiorLimit: 50, upperLimit: 130),
         AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 120)])
     
-    static var admOmbroDireito50_1 = Pose(conditions: [
-        AngleCondition(centerJoint: .right_forearm_joint, firstJoint: .right_arm_joint, secondJoint: .right_hand_joint, condition: .less, inferiorLimit: 50, upperLimit: 130)])
-    
-    static var admOmbroDireito120_2 = Pose(conditions: [
-        AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 120)])
-    
-    
-    
+
     
     
     // Esquerdo
     static var admOmbroEsquerdo80 = Pose(conditions: [
         AngleCondition(centerJoint: .left_forearm_joint, firstJoint: .left_arm_joint, secondJoint: .left_hand_joint, condition: .less, inferiorLimit: 80, upperLimit: 100),
         AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 90)])
-    static var admOmbroEsquerdo80_1 = Pose(conditions: [
-        AngleCondition(centerJoint: .left_forearm_joint, firstJoint: .left_arm_joint, secondJoint: .left_hand_joint, condition: .less, inferiorLimit: 80, upperLimit: 100)])
-    static var admOmbroEsquerdo90_2 = Pose(conditions: [
-        AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 90)])
-    
+
     static var admOmbroEsquerdo70 = Pose(conditions: [
         AngleCondition(centerJoint: .left_forearm_joint, firstJoint: .left_arm_joint, secondJoint: .left_hand_joint, condition: .less, inferiorLimit: 70, upperLimit: 110),
         AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 100)])
-    static var admOmbroEsquerdo70_1 = Pose(conditions: [
-        AngleCondition(centerJoint: .left_forearm_joint, firstJoint: .left_arm_joint, secondJoint: .left_hand_joint, condition: .less, inferiorLimit: 70, upperLimit: 110)])
-    static var admOmbroEsquerdo100_2 = Pose(conditions: [
-        AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 100)])
-    
+ 
     static var admOmbroEsquerdo60 = Pose(conditions: [
         AngleCondition(centerJoint: .left_forearm_joint, firstJoint: .left_arm_joint, secondJoint: .left_hand_joint, condition: .less, inferiorLimit: 60, upperLimit: 120),
         AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 110)])
-    static var admOmbroEsquerdo60_1 = Pose(conditions: [
-        AngleCondition(centerJoint: .left_forearm_joint, firstJoint: .left_arm_joint, secondJoint: .left_hand_joint, condition: .less, inferiorLimit: 60, upperLimit: 120)])
-    static var admOmbroEsquerdo110_2 = Pose(conditions: [
-        AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 110)])
-    
+ 
     static var admOmbroEsquerdo50 = Pose(conditions: [
         AngleCondition(centerJoint: .left_forearm_joint, firstJoint: .left_arm_joint, secondJoint: .left_hand_joint, condition: .less, inferiorLimit: 50, upperLimit: 130),
         AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 120)])
-    static var admOmbroEsquerdo50_1 = Pose(conditions: [
-        AngleCondition(centerJoint: .left_forearm_joint, firstJoint: .left_arm_joint, secondJoint: .left_hand_joint, condition: .less, inferiorLimit: 50, upperLimit: 130)])
-    static var admOmbroEsquerdo120_2 = Pose(conditions: [
-        AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 120)])
-    
+ 
     
     // ADM de ombro invertido
     // Direito
     static var admOmbroInvertidoDireito80 = Pose(conditions: [
         AngleCondition(centerJoint: .right_forearm_joint, firstJoint: .right_arm_joint, secondJoint: .right_hand_joint, condition: .less, inferiorLimit: 80, upperLimit: 100),
         AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 90)])
-    static var ombroInvertidoDireito90 = Pose(conditions: [
-        AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 90)])
     
     static var admOmbroInvertidoDireito70 = Pose(conditions: [
         AngleCondition(centerJoint: .right_forearm_joint, firstJoint: .right_arm_joint, secondJoint: .right_hand_joint, condition: .less, inferiorLimit: 70, upperLimit: 110),
         AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 100)])
-    static var ombroInvertidoDireito100 = Pose(conditions: [
-        AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 100)])
-    
+   
     static var admOmbroInvertidoDireito60 = Pose(conditions: [
         AngleCondition(centerJoint: .right_forearm_joint, firstJoint: .right_arm_joint, secondJoint: .right_hand_joint, condition: .less, inferiorLimit: 60, upperLimit: 120),
-        AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 110)])
-    static var ombroInvertidoDireito110 = Pose(conditions: [
         AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 110)])
     
     static var admOmbroInvertidoDireito50 = Pose(conditions: [
         AngleCondition(centerJoint: .right_forearm_joint, firstJoint: .right_arm_joint, secondJoint: .right_hand_joint, condition: .less, inferiorLimit: 50, upperLimit: 130),
         AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 120)])
-    static var ombroInvertidoDireito120 = Pose(conditions: [
-        AngleBetweenVectorsInPlaneCondition(firstA: .right_shoulder_1_joint, secondA: .left_shoulder_1_joint, firstB: .right_forearm_joint, secondB: .right_hand_joint, plane: .y, condition: .less, limit: 120)])
-        
+   
     
     // Esquerdo
     static var admOmbroInvertidoEsquerdo80 = Pose(conditions: [
         AngleCondition(centerJoint: .left_forearm_joint, firstJoint: .left_arm_joint, secondJoint: .left_hand_joint, condition: .less, inferiorLimit: 80, upperLimit: 100),
         AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 90)])
-    static var ombroInvertidoEsquerdo90 = Pose(conditions: [
-        AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 90)])
-    
+  
     static var admOmbroInvertidoEsquerdo70 = Pose(conditions: [
         AngleCondition(centerJoint: .left_forearm_joint, firstJoint: .left_arm_joint, secondJoint: .left_hand_joint, condition: .less, inferiorLimit: 70, upperLimit: 110),
         AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 100)])
-    static var ombroInvertidoEsquerdo100 = Pose(conditions: [
-        AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 100)])
-    
+   
     static var admOmbroInvertidoEsquerdo60 = Pose(conditions: [
         AngleCondition(centerJoint: .left_forearm_joint, firstJoint: .left_arm_joint, secondJoint: .left_hand_joint, condition: .less, inferiorLimit: 60, upperLimit: 120),
-        AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 110)])
-    static var ombroInvertidoEsquerdo110 = Pose(conditions: [
         AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 110)])
     
     static var admOmbroInvertidoEsquerdo50 = Pose(conditions: [
         AngleCondition(centerJoint: .left_forearm_joint, firstJoint: .left_arm_joint, secondJoint: .left_hand_joint, condition: .less, inferiorLimit: 50, upperLimit: 130),
-        AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 120)])
-    static var ombroInvertidoEsquerdo120 = Pose(conditions: [
         AngleBetweenVectorsInPlaneCondition(firstA: .left_shoulder_1_joint, secondA: .right_shoulder_1_joint, firstB: .left_forearm_joint, secondB: .left_hand_joint, plane: .y, condition: .less, limit: 120)])
     
     
