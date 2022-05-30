@@ -1694,26 +1694,26 @@ class TrackBank {
         
         // Braço para frente com cotovelos dobrados
         
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.abdAduflexDireito, time: offset + 23.199))
+//      mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.abdAduflexDireito, time: offset + 23.199))
         
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.abdDireito, time: offset + 23.199))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.aduDireito, time: offset + 23.199))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexDireito, time: offset + 23.199))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.abdDireito, time: offset + 23.199))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.aduDireito, time: offset + 23.199))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexDireito, time: offset + 23.199))
         
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdAduflexEsquerdo, time: offset + 24.229))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdEsquerdo, time: offset + 24.229))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.aduEsquerdo, time: offset + 24.229))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexEsquerdo, time: offset + 24.229))
+//      mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdAduflexEsquerdo, time: offset + 24.229))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdEsquerdo, time: offset + 24.229))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.aduEsquerdo, time: offset + 24.229))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexEsquerdo, time: offset + 24.229))
         
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.abdAduflexDireito, time: offset + 25.325))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.abdDireito, time: offset + 25.325))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.aduDireito, time: offset + 25.325))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexDireito, time: offset + 25.325))
+//      mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.abdAduflexDireito, time: offset + 25.325))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.abdDireito, time: offset + 25.325))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.aduDireito, time: offset + 25.325))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexDireito, time: offset + 25.325))
         
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdAduflexEsquerdo, time: offset + 25.488))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdEsquerdo, time: offset + 25.488))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.aduEsquerdo, time: offset + 25.488))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexEsquerdo, time: offset + 25.488))
+//      mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdAduflexEsquerdo, time: offset + 25.488))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdEsquerdo, time: offset + 25.488))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.aduEsquerdo, time: offset + 25.488))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexEsquerdo, time: offset + 25.488))
         
         // QUE O DIA JÁ VEM RAIOANDO
 //
@@ -1725,45 +1725,53 @@ class TrackBank {
 //
 //        // Cotovelos dobrados (pra dentro e pra fora)
         
-//      mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito, time: offset + 31.539))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 31.539))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_2, time: offset + 31.539))
-//
-//      mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo, time: offset + 31.539))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 31.539))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_2, time: offset + 31.539))
+//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito, time: offset + 31.539))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 31.539))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_2, time: offset + 31.539))
 
+        
+//      mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo, time: offset + 31.539))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 31.539))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_2, time: offset + 31.539))
+
+        
 //       mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroInvertidoDireito, time: offset + 32.104))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 32.104))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.ombroInvertidoDireito, time: offset + 32.104))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 32.104))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.ombroInvertidoDireito, time: offset + 32.104))
+        
         
 //      mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroInvertidoEsquerdo, time: offset + 32.104))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 32.104))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.ombroInvertidoEsquerdo, time: offset + 32.104))
-//
-//      mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito, time: offset + 32.669))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 32.669))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_2, time: offset + 32.669))
-//
-//      mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo, time: offset + 32.669))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 32.669))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_2, time: offset + 32.669))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 32.104))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.ombroInvertidoEsquerdo, time: offset + 32.104))
 
-//      mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroInvertidoDireito, time: offset + 33.267))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 33.267))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.ombroInvertidoDireito, time: offset + 33.267))
         
-//     mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroInvertidoEsquerdo, time: offset + 33.267))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 33.267))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.ombroInvertidoEsquerdo, time: offset + 33.267))
+//      mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito, time: offset + 32.669))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 32.669))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_2, time: offset + 32.669))
+
+        
+//      mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo, time: offset + 32.669))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 32.669))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_2, time: offset + 32.669))
+
+        
+//      mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroInvertidoDireito, time: offset + 33.267))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 33.267))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.ombroInvertidoDireito, time: offset + 33.267))
+        
+//      mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroInvertidoEsquerdo, time: offset + 33.267))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 33.267))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.ombroInvertidoEsquerdo, time: offset + 33.267))
+        
         
 //      mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito, time: offset + 33.965))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 33.965))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_2, time: offset + 33.965))
-//
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 33.965))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_2, time: offset + 33.965))
+
+        
 //      mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo, time: offset + 33.965))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 33.965))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_2, time: offset + 33.965))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 33.965))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_2, time: offset + 33.965))
 //
 //        // ACORDA MARIA BONITA
 //
@@ -1781,9 +1789,30 @@ class TrackBank {
 //
 //        // Braço para frente com cotovelos dobrados
 //        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.abdAduflexDireito, time: offset + 41.308))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdAduflexEsquerdo, time: offset + 42.438))
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.abdAduflexDireito, time: offset + 43.535))
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdAduflexEsquerdo, time: offset + 44.864))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.abdDireito, time: offset + 41.308))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.aduDireito, time: offset + 41.308))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexDireito, time: offset + 41.308))
+           
+        
+        
+//      mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdAduflexEsquerdo, time: offset + 42.438))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdEsquerdo, time: offset + 42.438))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.aduEsquerdo, time: offset + 42.438))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexEsquerdo, time: offset + 42.438))
+        
+        
+//      mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.abdAduflexDireito, time: offset + 43.535))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.abdDireito, time: offset + 43.535))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.aduDireito, time: offset + 43.535))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexDireito, time: offset + 43.535))
+        
+        
+       // mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdAduflexEsquerdo, time: offset + 44.864))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.abdEsquerdo, time: offset + 42.438))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.aduEsquerdo, time: offset + 42.438))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexEsquerdo, time: offset + 42.438))
+        
+        
 //
 //        // QUE O DIA JÁ VEM RAIOANDO
 //
@@ -1795,15 +1824,49 @@ class TrackBank {
 //
 //        // Cotovelos dobrados (pra dentro e pra fora)
 //        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito, time: offset + 49.981))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 49.981))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_2, time: offset + 49.981))
+
+        
 //        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo, time: offset + 49.981))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 49.981))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_2, time: offset + 49.981))
+        
+        
 //        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroInvertidoDireito, time: offset + 50.546))
+    mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 50.546))
+    mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.ombroInvertidoDireito, time: offset + 50.546))
+        
+        
 //        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroInvertidoEsquerdo, time: offset + 50.546))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 50.546))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.ombroInvertidoEsquerdo, time: offset + 50.546))
+        
+        
 //        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito, time: offset + 51.078))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 51.078))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_2, time: offset + 51.078))
+
 //        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo, time: offset + 51.078))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 51.078))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_2, time: offset + 51.078))
+        
 //        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroInvertidoDireito, time: offset + 51.676))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 51.676))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.ombroInvertidoDireito, time: offset + 51.676))
+            
 //        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroInvertidoEsquerdo, time: offset + 51.676))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 51.676))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.ombroInvertidoEsquerdo, time: offset + 51.676))
+        
 //        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito, time: offset + 52.274))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_1, time: offset + 52.274))
+        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.admOmbroDireito_2, time: offset + 52.274))
+        
 //        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo, time: offset + 52.274))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_1, time: offset + 52.274))
+        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.admOmbroEsquerdo_2, time: offset + 52.274))
+        
 //
 //        // SE EU SOUBESSE QUE CHORANDO
 //
@@ -1812,12 +1875,12 @@ class TrackBank {
 //        mariaBonitaPernaDireita.insertStep(StepInTrack(step: StepBank.passoPeDireito, time: offset + 57.099))
 //
 //        // Cotovelo dobrado com antebraço acima da cabeça
-//        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexaoOmbroECotoveloDireito, time: offset + 55.397))
+//      mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexaoOmbroECotoveloDireito, time: offset + 55.397))
         mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexaoOmbroDireito_1, time: offset + 55.397))
         mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexaoCotoveloDireito_1, time: offset + 55.397))
         
         
-//        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexaoOmbroECotoveloEsquerdo, time: offset + 57.424))
+//      mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexaoOmbroECotoveloEsquerdo, time: offset + 57.424))
         mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexaoOmbroEsquerdo_1, time: offset + 57.424))
         mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexaoCotoveloEsquerdo_1, time: offset + 57.424))
 //
