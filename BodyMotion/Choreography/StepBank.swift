@@ -133,13 +133,13 @@ class StepBank {
                                       moveName: "passoSentadoPeEsquerdo")
     
     // Flexão ombro total
-    static var flexaoOmbroDireitoTotal = Step(poses: [PoseBank.flexaoOmbroDireito120,
+    static var flexaoOmbroDireito120 = Step(poses: [PoseBank.flexaoOmbroDireito120,
                                                       PoseBank.flexaoOmbroDireito90,
                                                       PoseBank.flexaoOmbroDireito60,
                                                       PoseBank.flexaoOmbroDireito30],
                                               moveName: "flexaoOmbroDireitoTotal")
     
-    static var flexaoOmbroEsquerdoTotal = Step(poses: [PoseBank.flexaoOmbroEsquerdo120,
+    static var flexaoOmbroEsquerdo120 = Step(poses: [PoseBank.flexaoOmbroEsquerdo120,
                                                        PoseBank.flexaoOmbroEsquerdo90,
                                                        PoseBank.flexaoOmbroEsquerdo60,
                                                        PoseBank.flexaoOmbroEsquerdo30],
@@ -459,7 +459,7 @@ class StepBank {
 //        list.append(passoPeEsquerdo)
 //        list.append(passoSentadoPeDireito)
 //        list.append(passoSentadoPeEsquerdo)
-        list.append(flexaoOmbroDireitoTotal)
+//        list.append(flexaoOmbroDireitoTotal)
 //        list.append(flexaoOmbroEsquerdoTotal)
 //        list.append(admOmbroDireito)
 //        list.append(admOmbroEsquerdo)
