@@ -1680,7 +1680,7 @@ class TrackBank {
         
         // ACORDA MARIA BONITA
         
-        // Flexão ombro total
+        // Flexão ombro
         mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexaoOmbroDireito120, time: offset + 20.275))
         mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexaoOmbroEsquerdo120, time: offset + 20.275))
         
@@ -1717,7 +1717,7 @@ class TrackBank {
         
         // QUE O DIA JÁ VEM RAIOANDO
 //
-//        // Flexão ombro total
+//        // Flexão ombro
         mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexaoOmbroDireito120, time: offset + 29.246))
         mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexaoOmbroEsquerdo120, time: offset + 29.246))
 //
@@ -1780,7 +1780,7 @@ class TrackBank {
 //
 //        // QUE O DIA JÁ VEM RAIOANDO
 //
-//        // Flexão ombro total
+//        // Flexão ombro
 //        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexaoOmbroDireito120, time: offset + 47.489))
 //        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexaoOmbroEsquerdo120, time: offset + 47.489))
 //
@@ -1915,7 +1915,7 @@ class TrackBank {
 //
 //        // ACORDA MARIA BONITA
 //
-//        // Flexão ombro total
+//        // Flexão ombro
 //        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexaoOmbroDireito120, time: offset + 93.100))
 //        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexaoOmbroEsquerdo120, time: offset + 93.100))
 //
@@ -1951,7 +1951,7 @@ class TrackBank {
         
 //        // QUE O DIA JÁ VEM RAIANDO
 //
-//        // Flexão ombro total
+//        // Flexão ombro
 //        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexaoOmbroDireito120, time: offset + 102.500))
 //        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexaoOmbroEsquerdo120, time: offset + 102.500))
 //
@@ -1972,7 +1972,7 @@ class TrackBank {
 //
 //        // ACORDA MARIA BONITA
 //
-//        // Flexão ombro total
+//        // Flexão ombro
 //        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexaoOmbroDireito120, time: offset + 110.966))
 //        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexaoOmbroEsquerdo120, time: offset + 110.966))
 //
@@ -2010,7 +2010,7 @@ class TrackBank {
 //
 //        // QUE O DIA JÁ VEM RAIANDO
 //
-//        // Flexão ombro total
+//        // Flexão ombro 
 //        mariaBonitaBracoDireito.insertStep(StepInTrack(step: StepBank.flexaoOmbroDireito120, time: offset + 120.466))
 //        mariaBonitaBracoEsquerdo.insertStep(StepInTrack(step: StepBank.flexaoOmbroEsquerdo120, time: offset + 120.466))
 //
