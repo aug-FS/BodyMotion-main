@@ -57,7 +57,7 @@ class GameViewController: UIViewController, ARSessionDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
 //        arView.transform = CGAffineTransform(scaleX: -1, y: 1)
-        arView.transform = CGAffineTransform(rotationAngle: -CGFloat.pi * 0.5).scaledBy(x: 1, y: -1)
+//        arView.transform = CGAffineTransform(rotationAngle: -CGFloat.pi * 0.5).scaledBy(x: 1, y: -1)
 //        reverseView.transform = CGAffineTransform(scaleX: -1, y: 1)
     }
 
