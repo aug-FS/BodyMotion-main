@@ -89,7 +89,7 @@ class GameViewController: UIViewController, ARSessionDelegate {
             TrackBank.setupStronger()
         }
         
-        performance = Performance(choreography: song.choreography, maxDelay: 2.5, date: Date.init(timeIntervalSinceNow: 0), limbsActive: Game.instance.getPlayer().limbs, viewsList: nil)
+        performance = Performance(choreography: song.choreography, maxDelay: 2.0, date: Date.init(timeIntervalSinceNow: 0), limbsActive: Game.instance.getPlayer().limbs, viewsList: nil)
         
         let moviePath = Bundle.main.path(forResource: song.videoName, ofType: nil)
         if let path = moviePath {
