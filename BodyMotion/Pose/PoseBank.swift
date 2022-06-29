@@ -269,36 +269,36 @@ class PoseBank {
     
     // Passo pé direito para frente 25% da altura da pessoa
     static var passoPeDireito20 = Pose(conditions: [
-        RelativeDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .right_foot_joint, condition: .greater, percentLimit: 0.20),
+        RelativeDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .spine_1_joint, condition: .greater, percentLimit: 0.40),
         PosCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .z)
     ])
     static var passoPeDireito15 = Pose(conditions: [
-        RelativeDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .right_foot_joint, condition: .greater, percentLimit: 0.15),
+        RelativeDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .spine_1_joint, condition: .greater, percentLimit: 0.35),
         PosCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .z)
     ])
     static var passoPeDireito10 = Pose(conditions: [
-        RelativeDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .right_foot_joint, condition: .greater, percentLimit: 0.10),
+        RelativeDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .spine_1_joint, condition: .greater, percentLimit: 0.30),
         PosCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .z)
     ])
     static var passoPeDireito05 = Pose(conditions: [
-        RelativeDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .right_foot_joint, condition: .greater, percentLimit: 0.05),
+        RelativeDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .spine_1_joint, condition: .greater, percentLimit: 0.25),
         PosCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .z)
     ])
     // Passo pé esquerdo para frente 25% da altura da pessoa
     static var passoPeEsquerdo20 = Pose(conditions: [
-        RelativeDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .left_foot_joint, condition: .greater, percentLimit: 0.20),
+        RelativeDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .spine_1_joint, condition: .greater, percentLimit: 0.40),
         PosCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .greater, axis: .z)
     ])
     static var passoPeEsquerdo15 = Pose(conditions: [
-        RelativeDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .left_foot_joint, condition: .greater, percentLimit: 0.15),
+        RelativeDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .spine_1_joint, condition: .greater, percentLimit: 0.35),
         PosCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .greater, axis: .z)
     ])
     static var passoPeEsquerdo10 = Pose(conditions: [
-        RelativeDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .left_foot_joint, condition: .greater, percentLimit: 0.10),
+        RelativeDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .spine_1_joint, condition: .greater, percentLimit: 0.30),
         PosCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .greater, axis: .z)
     ])
     static var passoPeEsquerdo05 = Pose(conditions: [
-        RelativeDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .left_foot_joint, condition: .greater, percentLimit: 0.05),
+        RelativeDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, firstReferenceJoint: .head_joint, secondReferenceJoint: .spine_1_joint, condition: .greater, percentLimit: 0.25),
         PosCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .greater, axis: .z)
     ])
     
