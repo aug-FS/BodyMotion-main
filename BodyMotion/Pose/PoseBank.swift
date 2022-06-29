@@ -19,37 +19,37 @@ class PoseBank {
     
     // Eleva pé esquerdo
     static var elevaPeEsquerdo100 = Pose(conditions: [
-        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.010),
+        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.05),
         PosCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y)
     ])
     static var elevaPeEsquerdo75 = Pose(conditions: [
-        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.0075),
+        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.0375),
         PosCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y)
     ])
     static var elevaPeEsquerdo50 = Pose(conditions: [
-        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.005),
+        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.025),
         PosCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y)
     ])
     static var elevaPeEsquerdo25 = Pose(conditions: [
-        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.0025),
+        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.0125),
         PosCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y)
     ])
     
     // Eleva pé direito
     static var elevaPeDireito100 = Pose(conditions: [
-        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.010),
+        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.05),
         PosCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .less, axis: .y)
     ])
     static var elevaPeDireito75 = Pose(conditions: [
-        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.0075),
+        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.0375),
         PosCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .less, axis: .y)
     ])
     static var elevaPeDireito50 = Pose(conditions: [
-        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.005),
+        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.025),
         PosCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .less, axis: .y)
     ])
     static var elevaPeDireito25 = Pose(conditions: [
-        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.0025),
+        AxisDistanceCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .greater, axis: .y, limit: 0.0125),
         PosCondition(firstJoint: .right_foot_joint, secondJoint: .left_foot_joint, condition: .less, axis: .y)
     ])
     
@@ -832,16 +832,16 @@ class PoseBank {
     
     
     // Ombro direito para frente
-    static var ombroDireitoParaFrente4 = Pose(conditions: [PosCondition(firstJoint: .right_shoulder_1_joint, secondJoint: .left_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.004)])
-    static var ombroDireitoParaFrente3 = Pose(conditions: [PosCondition(firstJoint: .right_shoulder_1_joint, secondJoint: .left_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.003)])
-    static var ombroDireitoParaFrente2 = Pose(conditions: [PosCondition(firstJoint: .right_shoulder_1_joint, secondJoint: .left_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.002)])
-    static var ombroDireitoParaFrente1 = Pose(conditions: [PosCondition(firstJoint: .right_shoulder_1_joint, secondJoint: .left_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.001)])
+    static var ombroDireitoParaFrente4 = Pose(conditions: [PosCondition(firstJoint: .right_shoulder_1_joint, secondJoint: .left_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.20)])
+    static var ombroDireitoParaFrente3 = Pose(conditions: [PosCondition(firstJoint: .right_shoulder_1_joint, secondJoint: .left_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.15)])
+    static var ombroDireitoParaFrente2 = Pose(conditions: [PosCondition(firstJoint: .right_shoulder_1_joint, secondJoint: .left_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.10)])
+    static var ombroDireitoParaFrente1 = Pose(conditions: [PosCondition(firstJoint: .right_shoulder_1_joint, secondJoint: .left_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.5)])
     
     // Ombro esquerdo para frente
-    static var ombroEsquerdoParaFrente4 = Pose(conditions: [PosCondition(firstJoint: .left_shoulder_1_joint, secondJoint: .right_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.004)])
-    static var ombroEsquerdoParaFrente3 = Pose(conditions: [PosCondition(firstJoint: .left_shoulder_1_joint, secondJoint: .right_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.003)])
-    static var ombroEsquerdoParaFrente2 = Pose(conditions: [PosCondition(firstJoint: .left_shoulder_1_joint, secondJoint: .right_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.002)])
-    static var ombroEsquerdoParaFrente1 = Pose(conditions: [PosCondition(firstJoint: .left_shoulder_1_joint, secondJoint: .right_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.001)])
+    static var ombroEsquerdoParaFrente4 = Pose(conditions: [PosCondition(firstJoint: .left_shoulder_1_joint, secondJoint: .right_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.20)])
+    static var ombroEsquerdoParaFrente3 = Pose(conditions: [PosCondition(firstJoint: .left_shoulder_1_joint, secondJoint: .right_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.15)])
+    static var ombroEsquerdoParaFrente2 = Pose(conditions: [PosCondition(firstJoint: .left_shoulder_1_joint, secondJoint: .right_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.10)])
+    static var ombroEsquerdoParaFrente1 = Pose(conditions: [PosCondition(firstJoint: .left_shoulder_1_joint, secondJoint: .right_shoulder_1_joint, condition: .greater, axis: .z, limit: 0.5)])
     
     
     // Rotação de tronco
