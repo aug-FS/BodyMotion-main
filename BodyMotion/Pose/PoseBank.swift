@@ -485,12 +485,12 @@ class PoseBank {
     
     
     // Separa os pés (abre a base)
-    static var abreBase40 = Pose(conditions: [AxisDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .greater, axis: .y, limit: 0.40)])
-    static var abreBase35 = Pose(conditions: [AxisDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .greater, axis: .y, limit: 0.35)])
-    static var abreBase30 = Pose(conditions: [AxisDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .greater, axis: .y, limit: 0.30)])
-    static var abreBase25 = Pose(conditions: [AxisDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .greater, axis: .y, limit: 0.25)])
+    static var abreBase40 = Pose(conditions: [AxisDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .greater, axis: .y, limit: 0.020)])
+    static var abreBase35 = Pose(conditions: [AxisDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .greater, axis: .y, limit: 0.015)])
+    static var abreBase30 = Pose(conditions: [AxisDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .greater, axis: .y, limit: 0.010)])
+    static var abreBase25 = Pose(conditions: [AxisDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .greater, axis: .y, limit: 0.05)])
     
-    static var fechaBase = Pose(conditions: [AxisDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .greater, axis: .y, limit: 0.20)])
+    static var fechaBase = Pose(conditions: [AxisDistanceCondition(firstJoint: .left_foot_joint, secondJoint: .right_foot_joint, condition: .less, axis: .y, limit: 0.03)])
     
     
     // Posição de cruz com braços para trás passando a linha dos ombros
