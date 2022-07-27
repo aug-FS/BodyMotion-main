@@ -106,6 +106,8 @@
 		53EDB4D027B595D40052EDB0 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDB4CF27B595D40052EDB0 /* Song.swift */; };
 		53EDB4D227B596BC0052EDB0 /* SongsBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EDB4D127B596BC0052EDB0 /* SongsBank.swift */; };
 		A173212A8711FABE7943F7DE /* Pods_BodyMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A4BA6544B5D158F4EC49E5 /* Pods_BodyMotion.framework */; };
+		E2CDC45428907584006C93E4 /* pontuacao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC45328907584006C93E4 /* pontuacao.storyboard */; };
+		E2CDC456289160F6006C93E4 /* selecao de musica.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC455289160F6006C93E4 /* selecao de musica.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -211,6 +213,8 @@
 		53EDB4CF27B595D40052EDB0 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		53EDB4D127B596BC0052EDB0 /* SongsBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsBank.swift; sourceTree = "<group>"; };
 		97035AA1CC10487B06FE97A2 /* Pods-BodyMotion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BodyMotion.release.xcconfig"; path = "Target Support Files/Pods-BodyMotion/Pods-BodyMotion.release.xcconfig"; sourceTree = "<group>"; };
+		E2CDC45328907584006C93E4 /* pontuacao.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = pontuacao.storyboard; sourceTree = "<group>"; };
+		E2CDC455289160F6006C93E4 /* selecao de musica.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "selecao de musica.storyboard"; sourceTree = "<group>"; };
 		E803E7D22272DB54E09422E6 /* Pods-BodyMotion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BodyMotion.debug.xcconfig"; path = "Target Support Files/Pods-BodyMotion/Pods-BodyMotion.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -372,6 +376,8 @@
 				53ABE9AA26544941009FBDF6 /* Assets.xcassets */,
 				53ABE9AC26544941009FBDF6 /* LaunchScreen.storyboard */,
 				53ABE9AF26544941009FBDF6 /* Info.plist */,
+				E2CDC45328907584006C93E4 /* pontuacao.storyboard */,
+				E2CDC455289160F6006C93E4 /* selecao de musica.storyboard */,
 			);
 			path = BodyMotion;
 			sourceTree = "<group>";
@@ -701,8 +707,10 @@
 				530F2B0F27DFA32A008CE27C /* Stronger.mov in Resources */,
 				53ABE9AE26544941009FBDF6 /* LaunchScreen.storyboard in Resources */,
 				531E180227BE8A4900187004 /* MariaBonita_B.mov in Resources */,
+				E2CDC45428907584006C93E4 /* pontuacao.storyboard in Resources */,
 				531E180127BE8A4900187004 /* RockWithYou.mov in Resources */,
 				5382A88A265B193400F59D05 /* claps1.mp3 in Resources */,
+				E2CDC456289160F6006C93E4 /* selecao de musica.storyboard in Resources */,
 				53ABE9AB26544941009FBDF6 /* Assets.xcassets in Resources */,
 				5382A88B265B193400F59D05 /* claps2.mp3 in Resources */,
 				530F2B1127DFC9DA008CE27C /* Corte.mov in Resources */,
