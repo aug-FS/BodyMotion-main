@@ -108,6 +108,18 @@
 		A173212A8711FABE7943F7DE /* Pods_BodyMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A4BA6544B5D158F4EC49E5 /* Pods_BodyMotion.framework */; };
 		E2CDC45428907584006C93E4 /* pontuacao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC45328907584006C93E4 /* pontuacao.storyboard */; };
 		E2CDC456289160F6006C93E4 /* selecao de musica.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC455289160F6006C93E4 /* selecao de musica.storyboard */; };
+		E2CDC45828940B41006C93E4 /* tela de cadastro paciente.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC45728940B41006C93E4 /* tela de cadastro paciente.storyboard */; };
+		E2CDC45A28940B73006C93E4 /* tela de cadastro de paciente 2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC45928940B73006C93E4 /* tela de cadastro de paciente 2.storyboard */; };
+		E2CDC45C28940B89006C93E4 /* tela de cadastro de terapeuta.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC45B28940B89006C93E4 /* tela de cadastro de terapeuta.storyboard */; };
+		E2CDC45E28940BA5006C93E4 /* tela de carregamento.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC45D28940BA5006C93E4 /* tela de carregamento.storyboard */; };
+		E2CDC46028940BBA006C93E4 /* tela de pause.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC45F28940BBA006C93E4 /* tela de pause.storyboard */; };
+		E2CDC46228940BCE006C93E4 /* tela de perfil de paciente.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC46128940BCE006C93E4 /* tela de perfil de paciente.storyboard */; };
+		E2CDC46428940BE5006C93E4 /* tela de selecao de cadastro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC46328940BE5006C93E4 /* tela de selecao de cadastro.storyboard */; };
+		E2CDC46628940BFA006C93E4 /* tela de selecao de paciente.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC46528940BFA006C93E4 /* tela de selecao de paciente.storyboard */; };
+		E2CDC46828940C20006C93E4 /* tela de jogo em andamento.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC46728940C20006C93E4 /* tela de jogo em andamento.storyboard */; };
+		E2CDC46A28940C35006C93E4 /* tela inicial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC46928940C35006C93E4 /* tela inicial.storyboard */; };
+		E2CDC46C28940C4C006C93E4 /* tela de ajuste de camera 1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC46B28940C4C006C93E4 /* tela de ajuste de camera 1.storyboard */; };
+		E2CDC46E28940C5D006C93E4 /* tela de ajuste de camera 2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2CDC46D28940C5D006C93E4 /* tela de ajuste de camera 2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -215,6 +227,18 @@
 		97035AA1CC10487B06FE97A2 /* Pods-BodyMotion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BodyMotion.release.xcconfig"; path = "Target Support Files/Pods-BodyMotion/Pods-BodyMotion.release.xcconfig"; sourceTree = "<group>"; };
 		E2CDC45328907584006C93E4 /* pontuacao.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = pontuacao.storyboard; sourceTree = "<group>"; };
 		E2CDC455289160F6006C93E4 /* selecao de musica.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "selecao de musica.storyboard"; sourceTree = "<group>"; };
+		E2CDC45728940B41006C93E4 /* tela de cadastro paciente.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "tela de cadastro paciente.storyboard"; sourceTree = "<group>"; };
+		E2CDC45928940B73006C93E4 /* tela de cadastro de paciente 2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "tela de cadastro de paciente 2.storyboard"; sourceTree = "<group>"; };
+		E2CDC45B28940B89006C93E4 /* tela de cadastro de terapeuta.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "tela de cadastro de terapeuta.storyboard"; sourceTree = "<group>"; };
+		E2CDC45D28940BA5006C93E4 /* tela de carregamento.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "tela de carregamento.storyboard"; sourceTree = "<group>"; };
+		E2CDC45F28940BBA006C93E4 /* tela de pause.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "tela de pause.storyboard"; sourceTree = "<group>"; };
+		E2CDC46128940BCE006C93E4 /* tela de perfil de paciente.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "tela de perfil de paciente.storyboard"; sourceTree = "<group>"; };
+		E2CDC46328940BE5006C93E4 /* tela de selecao de cadastro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "tela de selecao de cadastro.storyboard"; sourceTree = "<group>"; };
+		E2CDC46528940BFA006C93E4 /* tela de selecao de paciente.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "tela de selecao de paciente.storyboard"; sourceTree = "<group>"; };
+		E2CDC46728940C20006C93E4 /* tela de jogo em andamento.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "tela de jogo em andamento.storyboard"; sourceTree = "<group>"; };
+		E2CDC46928940C35006C93E4 /* tela inicial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "tela inicial.storyboard"; sourceTree = "<group>"; };
+		E2CDC46B28940C4C006C93E4 /* tela de ajuste de camera 1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "tela de ajuste de camera 1.storyboard"; sourceTree = "<group>"; };
+		E2CDC46D28940C5D006C93E4 /* tela de ajuste de camera 2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "tela de ajuste de camera 2.storyboard"; sourceTree = "<group>"; };
 		E803E7D22272DB54E09422E6 /* Pods-BodyMotion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BodyMotion.debug.xcconfig"; path = "Target Support Files/Pods-BodyMotion/Pods-BodyMotion.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -378,6 +402,18 @@
 				53ABE9AF26544941009FBDF6 /* Info.plist */,
 				E2CDC45328907584006C93E4 /* pontuacao.storyboard */,
 				E2CDC455289160F6006C93E4 /* selecao de musica.storyboard */,
+				E2CDC45728940B41006C93E4 /* tela de cadastro paciente.storyboard */,
+				E2CDC45928940B73006C93E4 /* tela de cadastro de paciente 2.storyboard */,
+				E2CDC45B28940B89006C93E4 /* tela de cadastro de terapeuta.storyboard */,
+				E2CDC45D28940BA5006C93E4 /* tela de carregamento.storyboard */,
+				E2CDC45F28940BBA006C93E4 /* tela de pause.storyboard */,
+				E2CDC46128940BCE006C93E4 /* tela de perfil de paciente.storyboard */,
+				E2CDC46328940BE5006C93E4 /* tela de selecao de cadastro.storyboard */,
+				E2CDC46528940BFA006C93E4 /* tela de selecao de paciente.storyboard */,
+				E2CDC46728940C20006C93E4 /* tela de jogo em andamento.storyboard */,
+				E2CDC46928940C35006C93E4 /* tela inicial.storyboard */,
+				E2CDC46B28940C4C006C93E4 /* tela de ajuste de camera 1.storyboard */,
+				E2CDC46D28940C5D006C93E4 /* tela de ajuste de camera 2.storyboard */,
 			);
 			path = BodyMotion;
 			sourceTree = "<group>";
@@ -707,13 +743,25 @@
 				530F2B0F27DFA32A008CE27C /* Stronger.mov in Resources */,
 				53ABE9AE26544941009FBDF6 /* LaunchScreen.storyboard in Resources */,
 				531E180227BE8A4900187004 /* MariaBonita_B.mov in Resources */,
+				E2CDC45A28940B73006C93E4 /* tela de cadastro de paciente 2.storyboard in Resources */,
 				E2CDC45428907584006C93E4 /* pontuacao.storyboard in Resources */,
+				E2CDC45E28940BA5006C93E4 /* tela de carregamento.storyboard in Resources */,
+				E2CDC45C28940B89006C93E4 /* tela de cadastro de terapeuta.storyboard in Resources */,
 				531E180127BE8A4900187004 /* RockWithYou.mov in Resources */,
+				E2CDC46628940BFA006C93E4 /* tela de selecao de paciente.storyboard in Resources */,
 				5382A88A265B193400F59D05 /* claps1.mp3 in Resources */,
 				E2CDC456289160F6006C93E4 /* selecao de musica.storyboard in Resources */,
+				E2CDC46E28940C5D006C93E4 /* tela de ajuste de camera 2.storyboard in Resources */,
 				53ABE9AB26544941009FBDF6 /* Assets.xcassets in Resources */,
+				E2CDC45828940B41006C93E4 /* tela de cadastro paciente.storyboard in Resources */,
+				E2CDC46228940BCE006C93E4 /* tela de perfil de paciente.storyboard in Resources */,
+				E2CDC46C28940C4C006C93E4 /* tela de ajuste de camera 1.storyboard in Resources */,
+				E2CDC46828940C20006C93E4 /* tela de jogo em andamento.storyboard in Resources */,
+				E2CDC46028940BBA006C93E4 /* tela de pause.storyboard in Resources */,
 				5382A88B265B193400F59D05 /* claps2.mp3 in Resources */,
 				530F2B1127DFC9DA008CE27C /* Corte.mov in Resources */,
+				E2CDC46428940BE5006C93E4 /* tela de selecao de cadastro.storyboard in Resources */,
+				E2CDC46A28940C35006C93E4 /* tela inicial.storyboard in Resources */,
 				53ABE9A926544940009FBDF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
