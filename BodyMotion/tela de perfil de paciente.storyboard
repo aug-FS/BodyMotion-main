@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -26,44 +26,55 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.backward" catalog="system" title="Paciente:"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bH3-qT-PVj">
-                                <rect key="frame" x="96" y="188" width="199" height="48"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Jogar"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEh-rz-Z6z">
-                                <rect key="frame" x="96" y="261" width="199" height="31"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Ver historico"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joao vitor da costa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3OE-9K-jKl">
-                                <rect key="frame" x="123" y="127" width="145" height="21"/>
+                                <rect key="frame" x="123" y="127.5" width="145" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mjZ-fq-I0G">
+                                <rect key="frame" x="123" y="246" width="150" height="62"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bH3-qT-PVj">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="botao jogar"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEh-rz-Z6z">
+                                        <rect key="frame" x="0.0" y="31" width="150" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <backgroundConfiguration key="background" image="botao ver historico"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="bH3-qT-PVj" secondAttribute="trailing" id="9F7-Nc-7dQ"/>
+                                    <constraint firstItem="bH3-qT-PVj" firstAttribute="top" secondItem="mjZ-fq-I0G" secondAttribute="top" id="Re5-gb-oMU"/>
+                                    <constraint firstItem="bH3-qT-PVj" firstAttribute="leading" secondItem="mjZ-fq-I0G" secondAttribute="leading" id="Wlq-k7-mhZ"/>
+                                    <constraint firstItem="bH3-qT-PVj" firstAttribute="width" secondItem="mjZ-fq-I0G" secondAttribute="width" id="elf-R0-Vdp"/>
+                                    <constraint firstItem="bH3-qT-PVj" firstAttribute="height" secondItem="mjZ-fq-I0G" secondAttribute="height" multiplier="0.5" id="kmM-uG-krc"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="q0S-Qy-aSw" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="67" id="21u-G3-qXK"/>
                             <constraint firstItem="q0S-Qy-aSw" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.64" id="A4p-x2-7ge"/>
-                            <constraint firstItem="MEh-rz-Z6z" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="96" id="Apk-bn-1uc"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="bH3-qT-PVj" secondAttribute="bottom" constant="431" id="Fhc-Kb-ufP"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="mjZ-fq-I0G" secondAttribute="bottom" constant="359" id="DqE-sV-Vce"/>
+                            <constraint firstItem="mjZ-fq-I0G" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.0929535" id="GAc-D5-n7u"/>
                             <constraint firstItem="gTA-hq-Eai" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="HLa-E8-YJO"/>
                             <constraint firstItem="gTA-hq-Eai" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.0464768" id="J4f-mx-YaP"/>
                             <constraint firstItem="gTA-hq-Eai" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.3" id="KLo-fZ-46W"/>
-                            <constraint firstItem="MEh-rz-Z6z" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.530667" id="NK0-uZ-PDQ"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="3OE-9K-jKl" secondAttribute="bottom" constant="519" id="Ny3-nS-oBj"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="MEh-rz-Z6z" secondAttribute="bottom" constant="344" id="RUo-EL-Igc"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="MEh-rz-Z6z" secondAttribute="trailing" constant="80" id="VqI-wD-Bmo"/>
+                            <constraint firstItem="mjZ-fq-I0G" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="123" id="R3f-l4-bGX"/>
                             <constraint firstItem="q0S-Qy-aSw" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.191904" constant="50" id="XOm-XL-wCB"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="bH3-qT-PVj" secondAttribute="trailing" constant="80" id="biV-h1-3VT"/>
-                            <constraint firstItem="bH3-qT-PVj" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.130667" constant="150" id="oDq-rg-jXK"/>
+                            <constraint firstItem="mjZ-fq-I0G" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.4" id="mck-D2-KBA"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="q0S-Qy-aSw" secondAttribute="bottom" constant="52" id="oMk-Sz-bZw"/>
                             <constraint firstItem="gTA-hq-Eai" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="qpz-hF-MBu"/>
-                            <constraint firstItem="MEh-rz-Z6z" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.0464768" id="v4M-l0-fwR"/>
-                            <constraint firstItem="bH3-qT-PVj" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.071964" id="veV-eb-E7E"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="3OE-9K-jKl" secondAttribute="trailing" constant="107" id="yi4-co-UNz"/>
                             <constraint firstItem="3OE-9K-jKl" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="123" id="zex-zV-RJM"/>
                         </constraints>
@@ -76,6 +87,8 @@
     </scenes>
     <resources>
         <image name="arrow.backward" catalog="system" width="128" height="98"/>
+        <image name="botao jogar" width="6464" height="1552"/>
+        <image name="botao ver historico" width="7143" height="1715"/>
         <image name="logo" width="6293" height="6459"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="landscape" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,18 +14,71 @@
             <objects>
                 <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="NdR-qh-eCr">
+                                <rect key="frame" x="56" y="81" width="240" height="128"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bLH-Le-kMC">
+                                <rect key="frame" x="105" y="265" width="143" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Olá fisioterapeuta!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y28-h5-cNj">
+                                        <rect key="frame" x="0.0" y="0.0" width="143" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="1WW-8U-omP">
+                                <rect key="frame" x="88" y="348" width="67" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haR-fI-505">
+                                <rect key="frame" x="108" y="333" width="136" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="botao cadastro"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYh-yb-Q1G">
+                                <rect key="frame" x="108" y="445" width="140" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="botao selecionar paciente"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="NdR-qh-eCr" secondAttribute="bottom" constant="458" id="0Kx-YJ-nzf"/>
+                            <constraint firstItem="bLH-Le-kMC" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.0307346" id="5bj-1m-lEx"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="bLH-Le-kMC" secondAttribute="trailing" constant="127" id="Gfs-qf-Bk1"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="bLH-Le-kMC" secondAttribute="bottom" constant="381.5" id="Iyz-la-axb"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="NdR-qh-eCr" secondAttribute="trailing" constant="79" id="L8A-Mw-uvs"/>
+                            <constraint firstItem="bLH-Le-kMC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="105" id="NJ9-qu-Ize"/>
+                            <constraint firstItem="bLH-Le-kMC" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="265" id="NS2-06-xse"/>
+                            <constraint firstItem="NdR-qh-eCr" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.64" id="dQH-w4-RCJ"/>
+                            <constraint firstItem="NdR-qh-eCr" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.191904" id="faJ-Zu-3ab"/>
+                            <constraint firstItem="NdR-qh-eCr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="56" id="nf7-Gk-DAA"/>
+                            <constraint firstItem="NdR-qh-eCr" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="81" id="rGi-D6-vm9"/>
+                            <constraint firstItem="bLH-Le-kMC" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.381333" id="wLH-oq-vkU"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12" y="82"/>
+            <point key="canvasLocation" x="-12" y="81.409295352323838"/>
         </scene>
     </scenes>
     <resources>
+        <image name="botao cadastro" width="4483" height="1079"/>
+        <image name="botao selecionar paciente" width="5871" height="1429"/>
+        <image name="logo" width="6293" height="6459"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

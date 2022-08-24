@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="landscape" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
@@ -14,18 +14,101 @@
             <objects>
                 <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYb-22-CyF">
+                                <rect key="frame" x="16" y="20" width="37.5" height="31"/>
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
+                                    <backgroundConfiguration key="background" image="action_button-1"/>
+                                </buttonConfiguration>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5AQ-d8-lwi">
+                                <rect key="frame" x="94" y="300" width="187.5" height="67"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecione o tipo de" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWy-QG-Qcb">
+                                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="33.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cadastro:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gyt-8r-Osa">
+                                        <rect key="frame" x="0.0" y="33.5" width="187.5" height="33.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Nc-TN-HK0">
+                                <rect key="frame" x="87" y="81" width="200" height="110"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Xsr-OT-vaY">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="110"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Xsr-OT-vaY" firstAttribute="top" secondItem="4Nc-TN-HK0" secondAttribute="top" id="FhU-av-tK1"/>
+                                    <constraint firstItem="Xsr-OT-vaY" firstAttribute="width" secondItem="4Nc-TN-HK0" secondAttribute="width" id="Vn7-Ka-VO3"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xsr-OT-vaY" secondAttribute="trailing" id="aF9-Ra-ztH"/>
+                                    <constraint firstItem="Xsr-OT-vaY" firstAttribute="height" secondItem="4Nc-TN-HK0" secondAttribute="height" id="d01-YG-RdX"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xsr-OT-vaY" secondAttribute="bottom" id="g22-D0-9zP"/>
+                                    <constraint firstItem="Xsr-OT-vaY" firstAttribute="leading" secondItem="4Nc-TN-HK0" secondAttribute="leading" id="iQv-qa-3Cf"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfF-iz-lEy">
+                                <rect key="frame" x="122" y="428" width="132" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="botao cadastro paciente"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZQ-Md-B2l">
+                                <rect key="frame" x="122" y="502" width="132" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background" image="botao cadastro terapeuta"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VYb-22-CyF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="4fR-LD-zYc"/>
+                            <constraint firstItem="4Nc-TN-HK0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="87" id="EV6-Vy-JiG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="4Nc-TN-HK0" secondAttribute="trailing" constant="88" id="FZN-et-ECj"/>
+                            <constraint firstItem="4Nc-TN-HK0" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.533333" id="IYj-cc-MJc"/>
+                            <constraint firstItem="4Nc-TN-HK0" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="81" id="RwW-91-N7m"/>
+                            <constraint firstItem="VYb-22-CyF" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.0464768" id="YwY-kg-Avd"/>
+                            <constraint firstItem="5AQ-d8-lwi" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.5" id="aJN-Jd-C77"/>
+                            <constraint firstItem="VYb-22-CyF" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.1" id="fLs-jG-B12"/>
+                            <constraint firstItem="5AQ-d8-lwi" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.1" id="fXr-74-4kc"/>
+                            <constraint firstItem="VYb-22-CyF" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="gjT-YI-Z4s"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="4Nc-TN-HK0" secondAttribute="bottom" constant="476" id="hyZ-ce-mOG"/>
+                            <constraint firstItem="4Nc-TN-HK0" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.164918" id="kab-3s-yRU"/>
+                            <constraint firstItem="5AQ-d8-lwi" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="mut-Il-DhM"/>
+                            <constraint firstItem="5AQ-d8-lwi" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="wKG-xp-ws6"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12" y="82"/>
+            <point key="canvasLocation" x="-12" y="81.409295352323838"/>
         </scene>
     </scenes>
     <resources>
+        <image name="action_button-1" width="436" height="170"/>
+        <image name="arrow.left" catalog="system" width="128" height="98"/>
+        <image name="botao cadastro paciente" width="5313" height="1278"/>
+        <image name="botao cadastro terapeuta" width="6179" height="1505"/>
+        <image name="logo" width="6293" height="6459"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
