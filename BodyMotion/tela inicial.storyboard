@@ -35,38 +35,54 @@
                                 <rect key="frame" x="88" y="348" width="67" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haR-fI-505">
-                                <rect key="frame" x="108" y="333" width="136" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="botao cadastro"/>
-                                </buttonConfiguration>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYh-yb-Q1G">
-                                <rect key="frame" x="108" y="445" width="140" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <backgroundConfiguration key="background" image="botao selecionar paciente"/>
-                                </buttonConfiguration>
-                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dmS-5y-6p1">
+                                <rect key="frame" x="67.5" y="333.5" width="240" height="267"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CjG-M9-dod">
+                                        <rect key="frame" x="0.0" y="66.5" width="240" height="267"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df6-1x-hEY">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="267"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Df6-1x-hEY" firstAttribute="height" secondItem="CjG-M9-dod" secondAttribute="height" id="qVM-nx-iSj"/>
+                                            <constraint firstItem="Df6-1x-hEY" firstAttribute="width" secondItem="CjG-M9-dod" secondAttribute="width" id="rDr-WX-Vz3"/>
+                                            <constraint firstItem="Df6-1x-hEY" firstAttribute="centerY" secondItem="CjG-M9-dod" secondAttribute="centerY" id="wyp-D1-Y8j"/>
+                                            <constraint firstItem="Df6-1x-hEY" firstAttribute="centerX" secondItem="CjG-M9-dod" secondAttribute="centerX" id="x3c-D9-nWm"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="CjG-M9-dod" firstAttribute="centerX" secondItem="dmS-5y-6p1" secondAttribute="centerX" id="SL6-U1-5a1"/>
+                                    <constraint firstItem="CjG-M9-dod" firstAttribute="height" secondItem="dmS-5y-6p1" secondAttribute="height" id="Thb-d3-b9I"/>
+                                    <constraint firstItem="CjG-M9-dod" firstAttribute="centerY" secondItem="dmS-5y-6p1" secondAttribute="centerY" multiplier="1.5" id="o3I-vr-NR1"/>
+                                    <constraint firstItem="CjG-M9-dod" firstAttribute="width" secondItem="dmS-5y-6p1" secondAttribute="width" id="trM-Jb-Uxu"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="NdR-qh-eCr" secondAttribute="bottom" constant="458" id="0Kx-YJ-nzf"/>
                             <constraint firstItem="bLH-Le-kMC" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.0307346" id="5bj-1m-lEx"/>
+                            <constraint firstItem="dmS-5y-6p1" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" multiplier="1.4" id="Dqi-1C-13w"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="bLH-Le-kMC" secondAttribute="trailing" constant="127" id="Gfs-qf-Bk1"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="bLH-Le-kMC" secondAttribute="bottom" constant="381.5" id="Iyz-la-axb"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="NdR-qh-eCr" secondAttribute="trailing" constant="79" id="L8A-Mw-uvs"/>
                             <constraint firstItem="bLH-Le-kMC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="105" id="NJ9-qu-Ize"/>
                             <constraint firstItem="bLH-Le-kMC" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="265" id="NS2-06-xse"/>
+                            <constraint firstItem="dmS-5y-6p1" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.64" id="Z7Q-On-BIg"/>
                             <constraint firstItem="NdR-qh-eCr" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.64" id="dQH-w4-RCJ"/>
                             <constraint firstItem="NdR-qh-eCr" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.191904" id="faJ-Zu-3ab"/>
+                            <constraint firstItem="dmS-5y-6p1" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="iFs-xU-CyN"/>
                             <constraint firstItem="NdR-qh-eCr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="56" id="nf7-Gk-DAA"/>
                             <constraint firstItem="NdR-qh-eCr" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="81" id="rGi-D6-vm9"/>
                             <constraint firstItem="bLH-Le-kMC" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.381333" id="wLH-oq-vkU"/>
+                            <constraint firstItem="dmS-5y-6p1" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.4" id="xqY-ub-Mnv"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -76,8 +92,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="botao cadastro" width="4483" height="1079"/>
-        <image name="botao selecionar paciente" width="5871" height="1429"/>
         <image name="logo" width="6293" height="6459"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

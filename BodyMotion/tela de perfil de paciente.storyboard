@@ -32,47 +32,68 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mjZ-fq-I0G">
-                                <rect key="frame" x="123" y="246" width="150" height="62"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fjb-9a-zgX">
+                                <rect key="frame" x="56.5" y="167" width="262.5" height="266.5"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bH3-qT-PVj">
-                                        <rect key="frame" x="0.0" y="0.0" width="150" height="31"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain">
-                                            <backgroundConfiguration key="background" image="botao jogar"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEh-rz-Z6z">
-                                        <rect key="frame" x="0.0" y="31" width="150" height="31"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain">
-                                            <backgroundConfiguration key="background" image="botao ver historico"/>
-                                        </buttonConfiguration>
-                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quadrado" translatesAutoresizingMaskIntoConstraints="NO" id="ATh-kv-PFu">
+                                        <rect key="frame" x="0.0" y="0.0" width="262.5" height="266.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecione uma opção:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJs-b3-kig">
+                                        <rect key="frame" x="39" y="20" width="184" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="mjZ-fq-I0G">
+                                        <rect key="frame" x="39" y="93" width="184" height="133.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bH3-qT-PVj">
+                                                <rect key="frame" x="0.0" y="0.0" width="184" height="52"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <backgroundConfiguration key="background" image="botao jogar"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEh-rz-Z6z">
+                                                <rect key="frame" x="0.0" y="82" width="184" height="51.5"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <backgroundConfiguration key="background" image="botao ver historico"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="bH3-qT-PVj" secondAttribute="trailing" id="9F7-Nc-7dQ"/>
-                                    <constraint firstItem="bH3-qT-PVj" firstAttribute="top" secondItem="mjZ-fq-I0G" secondAttribute="top" id="Re5-gb-oMU"/>
-                                    <constraint firstItem="bH3-qT-PVj" firstAttribute="leading" secondItem="mjZ-fq-I0G" secondAttribute="leading" id="Wlq-k7-mhZ"/>
-                                    <constraint firstItem="bH3-qT-PVj" firstAttribute="width" secondItem="mjZ-fq-I0G" secondAttribute="width" id="elf-R0-Vdp"/>
-                                    <constraint firstItem="bH3-qT-PVj" firstAttribute="height" secondItem="mjZ-fq-I0G" secondAttribute="height" multiplier="0.5" id="kmM-uG-krc"/>
+                                    <constraint firstItem="mjZ-fq-I0G" firstAttribute="centerX" secondItem="fjb-9a-zgX" secondAttribute="centerX" id="1nL-te-i8g"/>
+                                    <constraint firstItem="mjZ-fq-I0G" firstAttribute="centerY" secondItem="fjb-9a-zgX" secondAttribute="centerY" multiplier="1.2" id="5Mp-1b-Qmy"/>
+                                    <constraint firstItem="ATh-kv-PFu" firstAttribute="width" secondItem="fjb-9a-zgX" secondAttribute="width" id="5fF-6H-zKH"/>
+                                    <constraint firstItem="ATh-kv-PFu" firstAttribute="centerX" secondItem="fjb-9a-zgX" secondAttribute="centerX" id="6BC-pe-jGF"/>
+                                    <constraint firstItem="gJs-b3-kig" firstAttribute="width" secondItem="fjb-9a-zgX" secondAttribute="width" multiplier="0.700952" id="Cy2-LL-enh"/>
+                                    <constraint firstItem="mjZ-fq-I0G" firstAttribute="height" secondItem="fjb-9a-zgX" secondAttribute="height" multiplier="0.5" id="O9w-35-3il"/>
+                                    <constraint firstItem="ATh-kv-PFu" firstAttribute="centerY" secondItem="fjb-9a-zgX" secondAttribute="centerY" id="cBh-J0-QMb"/>
+                                    <constraint firstItem="gJs-b3-kig" firstAttribute="top" secondItem="fjb-9a-zgX" secondAttribute="top" constant="20" id="gqc-cl-JiD"/>
+                                    <constraint firstItem="ATh-kv-PFu" firstAttribute="height" secondItem="fjb-9a-zgX" secondAttribute="height" id="v8p-u6-lhh"/>
+                                    <constraint firstItem="mjZ-fq-I0G" firstAttribute="width" secondItem="fjb-9a-zgX" secondAttribute="width" multiplier="0.7" id="vzZ-m3-2zj"/>
+                                    <constraint firstItem="gJs-b3-kig" firstAttribute="centerX" secondItem="fjb-9a-zgX" secondAttribute="centerX" id="wth-Rw-UJ6"/>
                                 </constraints>
-                            </stackView>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="q0S-Qy-aSw" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="67" id="21u-G3-qXK"/>
+                            <constraint firstItem="fjb-9a-zgX" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.4" id="5kw-yA-duE"/>
                             <constraint firstItem="q0S-Qy-aSw" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.64" id="A4p-x2-7ge"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="mjZ-fq-I0G" secondAttribute="bottom" constant="359" id="DqE-sV-Vce"/>
-                            <constraint firstItem="mjZ-fq-I0G" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.0929535" id="GAc-D5-n7u"/>
+                            <constraint firstItem="fjb-9a-zgX" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.7" id="CIG-zp-HR3"/>
                             <constraint firstItem="gTA-hq-Eai" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="HLa-E8-YJO"/>
                             <constraint firstItem="gTA-hq-Eai" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.0464768" id="J4f-mx-YaP"/>
                             <constraint firstItem="gTA-hq-Eai" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.3" id="KLo-fZ-46W"/>
+                            <constraint firstItem="fjb-9a-zgX" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="NrH-cL-0Tp"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="3OE-9K-jKl" secondAttribute="bottom" constant="519" id="Ny3-nS-oBj"/>
-                            <constraint firstItem="mjZ-fq-I0G" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="123" id="R3f-l4-bGX"/>
+                            <constraint firstItem="fjb-9a-zgX" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" multiplier="0.9" id="WgJ-Yc-Qxl"/>
                             <constraint firstItem="q0S-Qy-aSw" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.191904" constant="50" id="XOm-XL-wCB"/>
-                            <constraint firstItem="mjZ-fq-I0G" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.4" id="mck-D2-KBA"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="q0S-Qy-aSw" secondAttribute="bottom" constant="52" id="oMk-Sz-bZw"/>
                             <constraint firstItem="gTA-hq-Eai" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="qpz-hF-MBu"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="3OE-9K-jKl" secondAttribute="trailing" constant="107" id="yi4-co-UNz"/>
@@ -90,6 +111,7 @@
         <image name="botao jogar" width="6464" height="1552"/>
         <image name="botao ver historico" width="7143" height="1715"/>
         <image name="logo" width="6293" height="6459"/>
+        <image name="quadrado" width="4870" height="4623"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
