@@ -17,34 +17,69 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bLH-Le-kMC">
-                                <rect key="frame" x="105" y="265" width="139.5" height="20.5"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LSb-8g-Nme">
+                                <rect key="frame" x="67.5" y="69.5" width="240" height="128"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Olá fisioterapeuta!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y28-h5-cNj">
-                                        <rect key="frame" x="0.0" y="0.0" width="139.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="vrq-uW-G5j">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                    </imageView>
                                 </subviews>
-                            </stackView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dmS-5y-6p1">
-                                <rect key="frame" x="67" y="333.5" width="237.5" height="267"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="vrq-uW-G5j" firstAttribute="centerY" secondItem="LSb-8g-Nme" secondAttribute="centerY" id="3LP-3l-iq9"/>
+                                    <constraint firstItem="vrq-uW-G5j" firstAttribute="centerX" secondItem="LSb-8g-Nme" secondAttribute="centerX" id="B3D-Zs-OaU"/>
+                                    <constraint firstItem="vrq-uW-G5j" firstAttribute="width" secondItem="LSb-8g-Nme" secondAttribute="width" id="qeh-1O-bPo"/>
+                                    <constraint firstItem="vrq-uW-G5j" firstAttribute="height" secondItem="LSb-8g-Nme" secondAttribute="height" id="sQP-eT-3b4"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CrK-gM-G3h">
+                                <rect key="frame" x="67.5" y="236" width="240" height="128"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ujg-7M-sQZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="237.5" height="267"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bLH-Le-kMC">
+                                        <rect key="frame" x="50" y="53" width="139.5" height="20.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Olá fisioterapeuta!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y28-h5-cNj">
+                                                <rect key="frame" x="0.0" y="0.0" width="139.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dmS-5y-6p1">
+                                <rect key="frame" x="67.5" y="333.5" width="240" height="267"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="ujg-7M-sQZ">
+                                        <rect key="frame" x="0.0" y="66.5" width="240" height="133.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4z-5G-ZZ5">
-                                                <rect key="frame" x="0.0" y="0.0" width="237.5" height="133.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="56.5"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <backgroundConfiguration key="background" image="botao cadastro"/>
+                                                </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vs0-wz-pCC">
-                                                <rect key="frame" x="0.0" y="133.5" width="237.5" height="133.5"/>
+                                                <rect key="frame" x="0.0" y="77.5" width="240" height="56"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <backgroundConfiguration key="background" image="botao selecionar paciente"/>
+                                                </buttonConfiguration>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Vs0-wz-pCC" firstAttribute="width" secondItem="ujg-7M-sQZ" secondAttribute="width" id="47U-6F-AAY"/>
+                                            <constraint firstItem="U4z-5G-ZZ5" firstAttribute="height" secondItem="ujg-7M-sQZ" secondAttribute="height" multiplier="0.5" id="4iZ-oJ-GBT"/>
+                                            <constraint firstItem="Vs0-wz-pCC" firstAttribute="centerX" secondItem="ujg-7M-sQZ" secondAttribute="centerX" id="C4l-1s-54q"/>
+                                            <constraint firstItem="U4z-5G-ZZ5" firstAttribute="width" secondItem="ujg-7M-sQZ" secondAttribute="width" id="HZt-Hq-wPm"/>
+                                            <constraint firstItem="Vs0-wz-pCC" firstAttribute="centerY" secondItem="ujg-7M-sQZ" secondAttribute="centerY" id="Hv6-hS-HQm"/>
+                                            <constraint firstItem="U4z-5G-ZZ5" firstAttribute="centerX" secondItem="ujg-7M-sQZ" secondAttribute="centerX" id="QKj-Uc-6tH"/>
+                                            <constraint firstItem="U4z-5G-ZZ5" firstAttribute="centerY" secondItem="ujg-7M-sQZ" secondAttribute="centerY" id="dym-9m-GFg"/>
+                                            <constraint firstItem="Vs0-wz-pCC" firstAttribute="height" secondItem="ujg-7M-sQZ" secondAttribute="height" multiplier="0.5" id="jZi-dr-9SN"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -52,22 +87,24 @@
                                     <constraint firstItem="ujg-7M-sQZ" firstAttribute="width" secondItem="dmS-5y-6p1" secondAttribute="width" id="2he-X0-5jS"/>
                                     <constraint firstItem="ujg-7M-sQZ" firstAttribute="centerX" secondItem="dmS-5y-6p1" secondAttribute="centerX" id="KBo-FX-PBT"/>
                                     <constraint firstItem="ujg-7M-sQZ" firstAttribute="centerY" secondItem="dmS-5y-6p1" secondAttribute="centerY" id="ULU-Lm-1zI"/>
-                                    <constraint firstItem="ujg-7M-sQZ" firstAttribute="height" secondItem="dmS-5y-6p1" secondAttribute="height" id="YRQ-Ef-eHY"/>
+                                    <constraint firstItem="ujg-7M-sQZ" firstAttribute="height" secondItem="dmS-5y-6p1" secondAttribute="height" multiplier="0.5" id="YRQ-Ef-eHY"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="bLH-Le-kMC" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.0307346" id="5bj-1m-lEx"/>
                             <constraint firstItem="dmS-5y-6p1" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" multiplier="1.4" id="Dqi-1C-13w"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="bLH-Le-kMC" secondAttribute="trailing" constant="127" id="Gfs-qf-Bk1"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="bLH-Le-kMC" secondAttribute="bottom" constant="381.5" id="Iyz-la-axb"/>
-                            <constraint firstItem="bLH-Le-kMC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="105" id="NJ9-qu-Ize"/>
-                            <constraint firstItem="bLH-Le-kMC" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="265" id="NS2-06-xse"/>
+                            <constraint firstItem="LSb-8g-Nme" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.64" id="NcR-Z2-Zuk"/>
+                            <constraint firstItem="LSb-8g-Nme" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" multiplier="0.4" id="SDp-i4-2ZH"/>
                             <constraint firstItem="dmS-5y-6p1" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.64" id="Z7Q-On-BIg"/>
+                            <constraint firstItem="CrK-gM-G3h" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="bxA-vG-P0F"/>
                             <constraint firstItem="dmS-5y-6p1" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="iFs-xU-CyN"/>
-                            <constraint firstItem="bLH-Le-kMC" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.381333" id="wLH-oq-vkU"/>
+                            <constraint firstItem="CrK-gM-G3h" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.64" id="iOl-TH-hCm"/>
+                            <constraint firstItem="LSb-8g-Nme" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="oWe-48-i1O"/>
+                            <constraint firstItem="CrK-gM-G3h" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.191904" id="q1U-mt-Sd8"/>
+                            <constraint firstItem="CrK-gM-G3h" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" multiplier="0.9" id="sGV-jk-L7C"/>
+                            <constraint firstItem="LSb-8g-Nme" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.191904" id="vw9-NS-DTP"/>
                             <constraint firstItem="dmS-5y-6p1" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.4" id="xqY-ub-Mnv"/>
                         </constraints>
                     </view>
@@ -78,6 +115,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="botao cadastro" width="4483" height="1079"/>
+        <image name="botao selecionar paciente" width="5871" height="1429"/>
+        <image name="logo" width="6293" height="6459"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
