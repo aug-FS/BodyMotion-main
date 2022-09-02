@@ -25,6 +25,21 @@
                                     <backgroundConfiguration key="background" image="action_button-1"/>
                                 </buttonConfiguration>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MH1-z2-D6U">
+                                <rect key="frame" x="67.5" y="69.5" width="240" height="128"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="bNL-ws-MGp">
+                                        <rect key="frame" x="0.0" y="-10" width="240" height="148"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="bNL-ws-MGp" firstAttribute="centerY" secondItem="MH1-z2-D6U" secondAttribute="centerY" id="889-2R-Qla"/>
+                                    <constraint firstItem="bNL-ws-MGp" firstAttribute="width" secondItem="MH1-z2-D6U" secondAttribute="width" id="I3h-RK-1UJ"/>
+                                    <constraint firstItem="bNL-ws-MGp" firstAttribute="centerX" secondItem="MH1-z2-D6U" secondAttribute="centerX" id="ndT-YX-3h3"/>
+                                    <constraint firstItem="bNL-ws-MGp" firstAttribute="height" secondItem="MH1-z2-D6U" secondAttribute="height" constant="20" id="qQZ-0q-XN9"/>
+                                </constraints>
+                            </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5AQ-d8-lwi">
                                 <rect key="frame" x="94" y="300" width="187.5" height="67"/>
                                 <subviews>
@@ -42,22 +57,6 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Nc-TN-HK0">
-                                <rect key="frame" x="87" y="81" width="200" height="110"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Xsr-OT-vaY">
-                                        <rect key="frame" x="0.0" y="0.0" width="200" height="110"/>
-                                    </imageView>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="Xsr-OT-vaY" firstAttribute="top" secondItem="4Nc-TN-HK0" secondAttribute="top" id="FhU-av-tK1"/>
-                                    <constraint firstItem="Xsr-OT-vaY" firstAttribute="width" secondItem="4Nc-TN-HK0" secondAttribute="width" id="Vn7-Ka-VO3"/>
-                                    <constraint firstAttribute="trailing" secondItem="Xsr-OT-vaY" secondAttribute="trailing" id="aF9-Ra-ztH"/>
-                                    <constraint firstItem="Xsr-OT-vaY" firstAttribute="height" secondItem="4Nc-TN-HK0" secondAttribute="height" id="d01-YG-RdX"/>
-                                    <constraint firstAttribute="bottom" secondItem="Xsr-OT-vaY" secondAttribute="bottom" id="g22-D0-9zP"/>
-                                    <constraint firstItem="Xsr-OT-vaY" firstAttribute="leading" secondItem="4Nc-TN-HK0" secondAttribute="leading" id="iQv-qa-3Cf"/>
-                                </constraints>
-                            </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a42-iR-dyH">
                                 <rect key="frame" x="67.5" y="267" width="240" height="266.5"/>
                                 <subviews>
@@ -73,13 +72,29 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="JGI-vw-m9p">
-                                        <rect key="frame" x="0.0" y="40" width="240" height="240"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="JGI-vw-m9p">
+                                        <rect key="frame" x="0.0" y="100" width="240" height="133"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PG-rT-vkV">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="53"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <backgroundConfiguration key="background" image="botao cadastro paciente"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vca-sm-Rhv">
+                                                <rect key="frame" x="0.0" y="80" width="240" height="53"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain">
+                                                    <backgroundConfiguration key="background" image="botao cadastro terapeuta"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="JGI-vw-m9p" firstAttribute="top" secondItem="a42-iR-dyH" secondAttribute="top" constant="40" id="9GU-4N-5pI"/>
+                                    <constraint firstItem="JGI-vw-m9p" firstAttribute="top" secondItem="a42-iR-dyH" secondAttribute="top" constant="100" id="9GU-4N-5pI"/>
                                     <constraint firstAttribute="bottom" secondItem="JGI-vw-m9p" secondAttribute="bottom" constant="-13.5" id="FI6-Na-0Ao"/>
                                     <constraint firstItem="JGI-vw-m9p" firstAttribute="leading" secondItem="a42-iR-dyH" secondAttribute="leading" id="Mwo-mg-Z5W"/>
                                     <constraint firstItem="lBR-bW-ShM" firstAttribute="centerX" secondItem="a42-iR-dyH" secondAttribute="centerX" id="NRi-as-Hmk"/>
@@ -90,8 +105,8 @@
                                     <constraint firstItem="JGI-vw-m9p" firstAttribute="centerX" secondItem="a42-iR-dyH" secondAttribute="centerX" id="bzb-LB-ukJ"/>
                                     <constraint firstItem="IGJ-vY-AVr" firstAttribute="centerX" secondItem="a42-iR-dyH" secondAttribute="centerX" id="drL-nS-oi8"/>
                                     <constraint firstAttribute="trailing" secondItem="JGI-vw-m9p" secondAttribute="trailing" id="kxo-Wc-M8h"/>
-                                    <constraint firstItem="JGI-vw-m9p" firstAttribute="height" secondItem="a42-iR-dyH" secondAttribute="height" multiplier="0.9" id="m5E-z5-4Ff"/>
-                                    <constraint firstItem="JGI-vw-m9p" firstAttribute="centerY" secondItem="a42-iR-dyH" secondAttribute="centerY" multiplier="1.2" id="mZM-Xx-iKg"/>
+                                    <constraint firstItem="JGI-vw-m9p" firstAttribute="height" secondItem="a42-iR-dyH" secondAttribute="height" multiplier="0.5" id="m5E-z5-4Ff"/>
+                                    <constraint firstItem="JGI-vw-m9p" firstAttribute="centerY" secondItem="a42-iR-dyH" secondAttribute="centerY" id="mZM-Xx-iKg"/>
                                     <constraint firstItem="JGI-vw-m9p" firstAttribute="width" secondItem="a42-iR-dyH" secondAttribute="width" id="nRg-r8-9xY"/>
                                 </constraints>
                             </view>
@@ -100,19 +115,17 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="VYb-22-CyF" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="4fR-LD-zYc"/>
-                            <constraint firstItem="4Nc-TN-HK0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="87" id="EV6-Vy-JiG"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="4Nc-TN-HK0" secondAttribute="trailing" constant="88" id="FZN-et-ECj"/>
-                            <constraint firstItem="4Nc-TN-HK0" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.533333" id="IYj-cc-MJc"/>
+                            <constraint firstItem="MH1-z2-D6U" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="7qo-ur-6Ln"/>
+                            <constraint firstItem="MH1-z2-D6U" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.64" id="Nv3-Vk-wFH"/>
                             <constraint firstItem="a42-iR-dyH" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.4" id="PKA-K8-1ov"/>
-                            <constraint firstItem="4Nc-TN-HK0" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="81" id="RwW-91-N7m"/>
+                            <constraint firstItem="MH1-z2-D6U" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.191904" id="R7T-o5-GyC"/>
                             <constraint firstItem="a42-iR-dyH" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.64" id="T2C-da-ekp"/>
                             <constraint firstItem="VYb-22-CyF" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.0464768" id="YwY-kg-Avd"/>
+                            <constraint firstItem="MH1-z2-D6U" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" multiplier="0.4" id="aJ5-FR-xwb"/>
                             <constraint firstItem="5AQ-d8-lwi" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.5" id="aJN-Jd-C77"/>
                             <constraint firstItem="VYb-22-CyF" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.1" id="fLs-jG-B12"/>
                             <constraint firstItem="5AQ-d8-lwi" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.1" id="fXr-74-4kc"/>
                             <constraint firstItem="VYb-22-CyF" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="gjT-YI-Z4s"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="4Nc-TN-HK0" secondAttribute="bottom" constant="476" id="hyZ-ce-mOG"/>
-                            <constraint firstItem="4Nc-TN-HK0" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.164918" id="kab-3s-yRU"/>
                             <constraint firstItem="5AQ-d8-lwi" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="mut-Il-DhM"/>
                             <constraint firstItem="5AQ-d8-lwi" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="wKG-xp-ws6"/>
                             <constraint firstItem="a42-iR-dyH" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" multiplier="1.2" id="yKW-sY-Miz"/>
@@ -128,6 +141,8 @@
     <resources>
         <image name="action_button-1" width="436" height="170"/>
         <image name="arrow.left" catalog="system" width="128" height="98"/>
+        <image name="botao cadastro paciente" width="5313" height="1278"/>
+        <image name="botao cadastro terapeuta" width="6179" height="1505"/>
         <image name="logo" width="6293" height="6459"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
