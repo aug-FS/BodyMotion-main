@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="landscape" appearance="light"/>
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
@@ -14,10 +14,33 @@
             <objects>
                 <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jpx-Uw-d9h">
+                                <rect key="frame" x="67.5" y="203" width="240" height="261"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quadrado" translatesAutoresizingMaskIntoConstraints="NO" id="8k6-U9-6pn">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="261"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="8k6-U9-6pn" firstAttribute="width" secondItem="jpx-Uw-d9h" secondAttribute="width" id="Au4-b1-Yke"/>
+                                    <constraint firstItem="8k6-U9-6pn" firstAttribute="centerY" secondItem="jpx-Uw-d9h" secondAttribute="centerY" id="B7V-6Q-bJw"/>
+                                    <constraint firstItem="8k6-U9-6pn" firstAttribute="height" secondItem="jpx-Uw-d9h" secondAttribute="height" id="VZd-FB-7qy"/>
+                                    <constraint firstItem="8k6-U9-6pn" firstAttribute="centerX" secondItem="jpx-Uw-d9h" secondAttribute="centerX" id="rUn-td-NZj"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jpx-Uw-d9h" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="2ai-W0-FqZ"/>
+                            <constraint firstItem="jpx-Uw-d9h" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.391904" id="4q9-Vp-VRO"/>
+                            <constraint firstItem="jpx-Uw-d9h" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="RzP-Rg-SBC"/>
+                            <constraint firstItem="jpx-Uw-d9h" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.64" id="lcU-i1-fhn"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -26,6 +49,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="quadrado" width="4870" height="4623"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
