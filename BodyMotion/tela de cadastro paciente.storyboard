@@ -17,18 +17,57 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jnk-Ls-CRt">
+                                <rect key="frame" x="0.0" y="0.0" width="112.5" height="66.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8e-Tx-c2c">
+                                        <rect key="frame" x="0.5" y="18" width="111.5" height="31"/>
+                                        <color key="tintColor" systemColor="labelColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system" title="Historico"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="r8e-Tx-c2c" firstAttribute="centerX" secondItem="jnk-Ls-CRt" secondAttribute="centerX" id="Adh-EF-SUL"/>
+                                    <constraint firstItem="r8e-Tx-c2c" firstAttribute="height" secondItem="jnk-Ls-CRt" secondAttribute="height" multiplier="0.466165" id="pS7-yg-JnU"/>
+                                    <constraint firstItem="r8e-Tx-c2c" firstAttribute="width" secondItem="jnk-Ls-CRt" secondAttribute="width" multiplier="0.993333" id="pVx-V6-daF"/>
+                                    <constraint firstItem="r8e-Tx-c2c" firstAttribute="centerY" secondItem="jnk-Ls-CRt" secondAttribute="centerY" id="rfs-QM-HER"/>
+                                </constraints>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jpx-Uw-d9h">
                                 <rect key="frame" x="67.5" y="203" width="240" height="261"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="quadrado" translatesAutoresizingMaskIntoConstraints="NO" id="8k6-U9-6pn">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="261"/>
                                     </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="VyW-TP-hKQ">
+                                        <rect key="frame" x="0.0" y="30.5" width="240" height="200"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rock with you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRL-GW-DDb">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="100"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rock with you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVl-nL-mij">
+                                                <rect key="frame" x="0.0" y="100" width="240" height="100"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstItem="VyW-TP-hKQ" firstAttribute="centerX" secondItem="jpx-Uw-d9h" secondAttribute="centerX" id="37s-CC-ujY"/>
                                     <constraint firstItem="8k6-U9-6pn" firstAttribute="width" secondItem="jpx-Uw-d9h" secondAttribute="width" id="Au4-b1-Yke"/>
                                     <constraint firstItem="8k6-U9-6pn" firstAttribute="centerY" secondItem="jpx-Uw-d9h" secondAttribute="centerY" id="B7V-6Q-bJw"/>
+                                    <constraint firstItem="VyW-TP-hKQ" firstAttribute="centerY" secondItem="jpx-Uw-d9h" secondAttribute="centerY" id="IEe-0Y-jNi"/>
                                     <constraint firstItem="8k6-U9-6pn" firstAttribute="height" secondItem="jpx-Uw-d9h" secondAttribute="height" id="VZd-FB-7qy"/>
+                                    <constraint firstItem="VyW-TP-hKQ" firstAttribute="width" secondItem="jpx-Uw-d9h" secondAttribute="width" id="cyf-u0-p2w"/>
+                                    <constraint firstItem="VyW-TP-hKQ" firstAttribute="height" secondItem="jpx-Uw-d9h" secondAttribute="height" multiplier="0.766284" id="oKR-Qb-zLP"/>
                                     <constraint firstItem="8k6-U9-6pn" firstAttribute="centerX" secondItem="jpx-Uw-d9h" secondAttribute="centerX" id="rUn-td-NZj"/>
                                 </constraints>
                             </view>
@@ -38,7 +77,11 @@
                         <constraints>
                             <constraint firstItem="jpx-Uw-d9h" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="2ai-W0-FqZ"/>
                             <constraint firstItem="jpx-Uw-d9h" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.391904" id="4q9-Vp-VRO"/>
+                            <constraint firstItem="jnk-Ls-CRt" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" multiplier="0.3" id="5SY-93-pUc"/>
+                            <constraint firstItem="jnk-Ls-CRt" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" multiplier="0.1" id="FQd-2E-y5b"/>
+                            <constraint firstItem="jnk-Ls-CRt" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.3" id="L8p-ln-JDj"/>
                             <constraint firstItem="jpx-Uw-d9h" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="RzP-Rg-SBC"/>
+                            <constraint firstItem="jnk-Ls-CRt" firstAttribute="height" secondItem="5EZ-qb-Rvc" secondAttribute="height" multiplier="0.1" id="Zq6-jb-3NH"/>
                             <constraint firstItem="jpx-Uw-d9h" firstAttribute="width" secondItem="5EZ-qb-Rvc" secondAttribute="width" multiplier="0.64" id="lcU-i1-fhn"/>
                         </constraints>
                     </view>
@@ -49,7 +92,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arrow.left" catalog="system" width="128" height="98"/>
         <image name="quadrado" width="4870" height="4623"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
